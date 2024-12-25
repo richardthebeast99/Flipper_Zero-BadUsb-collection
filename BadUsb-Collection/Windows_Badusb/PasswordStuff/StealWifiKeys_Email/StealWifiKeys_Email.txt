@@ -52,7 +52,7 @@ STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 ENTER
 STRING $SMTPInfo.EnableSSL = $true
 ENTER
-STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('EMAIL HERE', 'EMAIL PASSWORD HERE')
+STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('richardvr354', 'Damian-31')
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
